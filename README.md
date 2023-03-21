@@ -19,4 +19,9 @@ Em outras palavras, Clean Code é uma abordagem de escrita de código fonte, enq
 Ambas as abordagens são importantes para a produção de software de alta qualidade e devem ser consideradas em conjunto para obter um sistema bem estruturado, fácil de manter e escalável.
 ![image](https://user-images.githubusercontent.com/14266075/226642740-d07cd219-2838-4218-a418-52b34010d3a2.png)
 
+ O Maior Indicativo de que um código está sujo
+ 
+ ![image](https://user-images.githubusercontent.com/14266075/226649411-eb62fb9e-da90-4fd6-b3de-4fdcd9fe61d1.png)
+
+
 
