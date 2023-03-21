@@ -23,5 +23,17 @@ Ambas as abordagens são importantes para a produção de software de alta quali
  
  ![image](https://user-images.githubusercontent.com/14266075/226649411-eb62fb9e-da90-4fd6-b3de-4fdcd9fe61d1.png)
 
+Há diversos indicativos de que um código pode estar "sujo" ou de difícil manutenção. Alguns dos mais comuns são:
 
+Complexidade excessiva: quanto mais complexo um código é, mais difícil é entender e manter. Se um código é difícil de ler e entender, é um indicativo de que pode ser "sujo".
+
+Falta de coesão: se uma função ou classe realiza diversas tarefas diferentes, é um sinal de falta de coesão. Funções coesas realizam uma única tarefa ou um conjunto de tarefas relacionadas, tornando-as mais fáceis de entender e manter.
+
+Falta de clareza na nomenclatura: nomes mal escolhidos para variáveis, funções e classes podem tornar o código difícil de entender.
+
+Código duplicado: código duplicado é difícil de manter e atualizar, pois qualquer mudança precisa ser feita em todos os lugares onde o código duplicado é usado.
+
+Falta de testes: a ausência de testes pode tornar o código difícil de manter e atualizar, pois mudanças podem introduzir erros em outras partes do código.
+
+Esses são apenas alguns exemplos de indicativos de código sujo. É importante lembrar que a qualidade do código é um aspecto subjetivo e pode variar de acordo com o contexto do projeto e da equipe de desenvolvimento. No entanto, é importante sempre buscar escrever código limpo e de fácil manutenção, para garantir um sistema saudável e escalável.
 
