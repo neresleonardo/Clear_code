@@ -68,4 +68,4 @@ Clean code é uma prática que deve ser aprendida e desenvolvida como um hábito
 
 Ao adquirir o hábito de escrever código limpo, você poderá produzir código que seja mais fácil de ler e entender, além de facilitar a manutenção e a adição de novas funcionalidades no futuro. Além disso, o clean code pode ajudar a evitar erros e bugs em seu código, o que é crucial em projetos de software em constante mudança.
 
-Não é suficiente apenas saber sobre o clean code; é preciso praticá-lo regularmente para torná-lo um hábito. Isso pode incluir coisas como seguir boas práticas de nomenclatura e estruturação de funções, e tudo isso vamos aprender nesse curso.
+Não é suficiente apenas saber sobre o clean code; é preciso praticá-lo regularmente para torná-lo um hábito. Isso pode incluir coisas como seguir boas práticas de nomenclatura e estruturação de funções.
