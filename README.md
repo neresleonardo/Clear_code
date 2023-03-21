@@ -62,6 +62,7 @@ Teste e depure o código refatorado. Execute testes de unidade e de integração
 
 Documente as alterações. Crie comentários e documentação para explicação de cada regra de negócio.
 
+
 # Clean Code é Hábito
 Clean code é uma prática que deve ser aprendida e desenvolvida como um hábito. Escrever código limpo e organizado não é algo que se aprende de uma vez por todas; é uma habilidade que precisa ser cultivada e aprimorada com o tempo.
 
