@@ -23,16 +23,26 @@ function CalculateTaxErrada(invoiceName, document, value, customer,date) {
 
 // ****************************** Melhorando *****************
 
-function CalculateTaxCerta(invoiceName, document, value, customer,date) {
-  let invoice = {
-    name: invoiceName, // Ou tudo em ingles ou tudo em portugues
-    data: date,
-    number: document,
-    value: 0,
-    customer: customer
-  }
+let purchase = {
+  name: "sdfff",
+  data: Date.now(),
+  number: "432432",
+  value: 123,
+  customer: "Leonardo fdfdfd"
+}
 
-  invoice.value = value;
+CalculateTaxCerta(purchase)
+
+function CalculateTaxCerta(purchase) {
+
+  let invoice = {...purchase};
+  // let invoice = {
+  //   name: purchase.name, // Ou tudo em ingles ou tudo em portugues
+  //   data: purchase.data,
+  //   number: purchase.number,
+  //   value: purchase.value,
+  //   customer: purchase.customer
+  // }
 
   invoice.value = GetLiquedValue(invoice.value);
   invoice.value = GetTaxDeductedValue(invoice.value)
