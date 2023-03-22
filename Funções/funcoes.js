@@ -35,7 +35,16 @@ CalculateTaxCerta(purchase)
 
 function CalculateTaxCerta(purchase) {
 
-  let invoice = {...purchase};
+  let defaults = {
+    name: "",
+    number: "",
+    value: 0,
+    customer: "",
+    date: new Date()
+  }
+
+  let invoice = {...purchase}; // spreed operator
+  invoice = Object.assign(defaults, invoice);
   // let invoice = {
   //   name: purchase.name, // Ou tudo em ingles ou tudo em portugues
   //   data: purchase.data,
@@ -44,17 +53,17 @@ function CalculateTaxCerta(purchase) {
   //   customer: purchase.customer
   // }
 
-  invoice.value = GetLiquedValue(invoice.value);
-  invoice.value = GetTaxDeductedValue(invoice.value)
+  invoice.value = GetLiquedValue(invoice);
+  invoice.value = GetTaxDeductedValue(invoice)
   return invoice;
 }
 
-function GetLiquedValue(value){
+function GetLiquedValue({value}){
   let sharedTax = "dsfdfsdfsdf";
   return value - sharedTax;
 }
 
-function GetTaxDeductedValue(value) {
+function GetTaxDeductedValue({value}) {
   let generalTax = "dsadsdsd";
   let cityTax = "dsfdfsdfsdf";
   let companyTax = "dsadsdsd";
